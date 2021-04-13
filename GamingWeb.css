@@ -1,0 +1,798 @@
+body {
+    background-color: #02040F;
+    font-family: 'Prompt', sans-serif;
+}
+
+.hide{
+    display: none;
+}
+
+#showAgain{
+    display: none;
+}
+
+main #images{
+    background-image: url("0001-18887494368_20210326_132926_0000.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.showButton{
+    display: block;
+    background-color: #6cc5ff ;
+    color: #ffffff ;
+    border: none;
+    width: 400px;
+    height: 400px;
+    font-size: 2em;
+    position: fixed;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -200px;
+    animation: buttonAnim 1s linear;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes buttonAnim{
+    0%{
+        width: 400px;
+        height: 400px;
+        font-size: 2em;
+        position: fixed;
+        top: 50%;
+        margin-top: -200px;
+        left: 50%;
+        margin-left: -200px;
+    }
+
+    20%{
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        font-size: 2em;
+        position: fixed;
+        top: 50%;
+        margin-top: -100px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    100%{
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        font-size: 2em;
+        position: fixed;
+        top: 98%;
+        margin-top: -105px;
+        left: 100%;
+        margin-left: -105px;
+    }
+}
+
+.showInfo{
+    display: grid;
+    background-color: #ffffff !important;
+    box-shadow: 5px 5px 15px #000000;
+    color: #240046;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 450px;
+    font-size: 2em;
+    position: fixed;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -500px;
+    border-radius: 15px;
+}
+
+.showInfo h2{
+    font-size: 1.5em;
+}
+
+.showInfo button{
+    padding: 15px;
+    width: 250px;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6cc5ff ;
+    color: #ffffff ;
+    border: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 5px black solid;
+}
+
+header #logoKontejner {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header #logoKontejner a #logo {
+    width: 90px;
+    height: 90px;
+}
+
+header #navigace nav {
+    margin-right: 30px;
+}
+
+header #navigace nav a {
+    font-size: 20px;
+    padding-top: 40px;
+    color: #FF6D00;
+    padding-bottom: 40px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+
+header #navigace nav a:hover {
+    font-size: 20px;
+    color: #240046;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    background-color: #6cc5ff ;
+    color: #ffffff ;
+}
+
+header #navigace nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+}
+
+main article {
+    width: 100%;
+}
+
+main #images {
+    width: 100%;
+    height: 600px;
+}
+
+main #images #productBaner {
+    width: 100%;
+    height: 600px;
+}
+
+main #products {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff !important;
+    height: 400px;
+}
+
+main #products .product {
+    margin-top: 30px;
+    display: flexbox;
+    text-align: center;
+
+    height: 350px;
+    width: 350px;
+}
+
+main #products .product img {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main #products .product .productHeadLine {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #FF6D00;
+    font-size: 2em;
+}
+
+main #products .product .ProductText {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #FF6D00;
+    font-size: 1.4em;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: #ffffff;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+
+}
+
+main #inovations{
+    background-color: #240046;
+    background-image: linear-gradient(45deg, #6cc5ff, #59bbff);
+}
+
+main #inovations .inovation {
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.instaFeed{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inovImg {
+    width: 50%;
+    height: auto;
+}
+
+.inovImg img {
+    height: 550px;
+    width: 100%;
+}
+
+ #firstMouse{
+    width: 150px !important;
+    height: 100px !important;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#PCCase{
+    height: 150px !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#secondMouse{
+    height: 180px !important;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.inovText {
+    width: 50%;
+    height: auto;
+}
+
+main #news {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main #news a {
+    border: none;
+    border-radius: 5px;
+    color: #FF6D00;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+main #downloads {
+    text-align: center;
+    background-color: #240046;
+    background-image: linear-gradient(45deg, #6cc5ff, #59bbff);
+    width: 100%;
+    height: 400px;
+    color: #FF6D00;
+}
+
+main #downloads #down {
+    display: flex;
+    justify-content: space-around;
+}
+
+main #downloads h2 {
+    padding-top: 20px;
+    font-size: 3.5em;
+}
+
+main #downloads #down .productHeadLine {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+main #downloads #down .icon {
+    margin-top: 15px;
+    height: 120px;
+    font-size: 5em;
+}
+
+main #downloads #down button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #ffffff ;
+    color: #6cc5ff ;
+    font-size: 20px;
+}
+
+main #downloads #down button:hover {
+    animation: buttonek 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.left {
+    padding-left: 25px;
+    padding-top: 25px;
+    color: #FF6D00;
+    font-size: 3em;
+}
+
+.right {
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 25px;
+    color: #FF6D00;
+    font-size: 3em;
+}
+
+.inovText p {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    color: #FF6D00;
+    font-size: 1.1em;
+}
+footer{
+    background-color: #ffffff !important;
+}
+#footerLayout {
+    height: 200px;
+    background-color: #ffffff !important;
+    color: #02040F;
+    width: 100%;
+    display: flex;
+}
+
+#footerLayout #LegalInfoSection {
+    width: 50%;
+}
+
+#footerLayout #LegalInfoSection h2{
+    padding: 20px;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+#footerLayout #LegalInfoSection p {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#footerLayout .social {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerLayout .social a {
+    font-size: 1.5em;
+    color: #240046;
+
+}
+
+footer #name {
+    width: 100%;
+    height: 30px;
+    color: #02040F;
+    text-align: right;
+    display: grid;
+    align-items: center;
+}
+
+footer #name a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+p, i, h2, a{
+    color: black !important;
+}
+
+
+button i{
+    color: #ffffff !important;
+}
+
+@media(max-width: 1100px){
+    main #images {
+        height: 450px;
+    }
+}
+
+@media(max-width: 1010px){
+    .showInfo{
+        display: grid;
+        background-color: #FF6D00;
+        color: #240046;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: auto;
+        font-size: 1em;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -200px;
+        border-radius: 10px;
+    }
+
+    .showInfo h2 {
+        font-size: 1.5em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .showInfo p{
+        padding: 10px;
+    }
+
+    .showInfo button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main #products {
+        display: grid;
+        background-color: #240046;
+        height: auto;
+    }
+
+    main #downloads{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    main #downloads #down {
+        display: grid;
+    }
+
+    header #navigace nav {
+        width: 100%;
+        display: grid;
+        margin-right: 0px;
+    }
+    header{
+        height: auto;
+        display: grid;
+        justify-content: center;
+        position: relative;
+    }
+    header #logoKontejner {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main #inovations .inovation {
+        width: 100%;
+        height: auto;
+        display: grid;
+        float: none;
+    }
+    
+    .inovImg {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .inovImg img {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .inovText {
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .inovText h2{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    main #inovations #inov2{
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+    }
+    #inov2 .inovImg{
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+    }
+
+    footer{
+        background-color: #E59500;
+    }
+    #footerLayout {
+        height: auto;
+        width: 100%;
+        display: grid;
+    }
+    
+    #footerLayout #LegalInfoSection {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #footerLayout #LegalInfoSection h2{
+        padding: 20px;
+        text-decoration: underline;
+        font-size: 1.3em;
+    }
+    
+    #footerLayout #LegalInfoSection p {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    
+    #footerLayout .social {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    #footerLayout .social a {
+        font-size: 1.5em;
+    
+    }
+    
+    footer #name {
+        width: 100%;
+        height: 30px;
+        color: #02040F;
+        text-align: right;
+        display: grid;
+        align-items: center;
+    }
+    
+    footer #name a{
+        text-decoration: none;
+        padding-right: 20px;
+    }
+
+    main #products .product {
+        margin-top: 30px;
+        display: flexbox;
+        text-align: center;
+        height: 350px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 460px){
+
+    main #images{
+background-image: url("0001-19338875736_20210405_204305_0000.png");
+height: 450px;
+    }
+
+    main #products {
+        display: grid;
+        background-color: #240046;
+        height: auto;
+    }
+
+    main #downloads{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    main #downloads #down {
+        display: grid;
+    }
+
+    header #navigace nav {
+        width: 100%;
+        display: grid;
+        margin-right: 0px;
+    }
+    header{
+        height: auto;
+        display: grid;
+        justify-content: center;
+    }
+    header #logoKontejner {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main #inovations .inovation {
+        width: 100%;
+        height: auto;
+        display: grid;
+        float: none;
+    }
+    
+    .inovImg {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .inovImg img {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .inovText {
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .inovText h2{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    main #inovations #inov2{
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+    }
+    #inov2 .inovImg{
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+    }
+
+    footer{
+        background-color: #E59500;
+    }
+    #footerLayout {
+        height: auto;
+        width: 100%;
+        display: grid;
+    }
+    
+    #footerLayout #LegalInfoSection {
+        width: 100%;
+    }
+    
+    #footerLayout #LegalInfoSection h2{
+        padding: 20px;
+        text-decoration: underline;
+        font-size: 1.3em;
+    }
+    
+    #footerLayout #LegalInfoSection p {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    
+    #footerLayout .social {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    #footerLayout .social a {
+        font-size: 1.5em;
+    
+    }
+    
+    footer #name {
+        width: 100%;
+        height: 30px;
+        color: #02040F;
+        text-align: right;
+        display: grid;
+        align-items: center;
+    }
+    
+    footer #name a{
+        text-decoration: none;
+        padding-right: 20px;
+    }
+
+    main #products .product {
+        margin-top: 30px;
+        display: flexbox;
+        text-align: center;
+        height: 350px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 410px){
+    .showInfo{
+        display: grid;
+        background-color: #FF6D00;
+        color: #240046;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: auto;
+        font-size: 1em;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -150px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width: 300px){
+    .showInfo{
+        display: grid;
+        background-color: #FF6D00;
+        color: #240046;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: auto;
+        font-size: 1em;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -125px;
+        border-radius: 10px;
+    }
+
+    .showInfo h2{
+        font-size: 1.1em;
+    }
+
+    .showInfo button{
+        width: 210px;
+    }
+}
